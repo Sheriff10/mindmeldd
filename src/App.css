@@ -1,0 +1,15 @@
+.intro {
+    background: url('../public/asset/worried.jpeg') no-repeat;
+    background-size: cover;
+}
+.exp {
+    background: url('../public/asset/experts.jpeg') no-repeat fixed;
+    background-size: cover;
+    background-position: fixed;
+}
+.trans {
+    transition: all .5s ease;
+}
+body {
+    background: #F5F5DC;
+}
