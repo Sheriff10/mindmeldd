@@ -1,15 +1,64 @@
 .intro {
-    background: url('../public/asset/worried.jpeg') no-repeat;
-    background-size: cover;
+   background: url("../public/asset/worried.jpeg") no-repeat;
+   background-size: cover;
 }
 .exp {
-    background: url('../public/asset/experts.jpeg') no-repeat fixed;
-    background-size: cover;
-    background-position: fixed;
+   background: url("../public/asset/experts.jpeg") no-repeat fixed;
+   background-size: cover;
+   background-position: fixed;
 }
 .trans {
-    transition: all .5s ease;
+   transition: all 0.5s ease;
 }
-body {
-    background: #F5F5DC;
+.bg-grad {
+   background: rgb(245, 245, 220);
+   background: linear-gradient(
+      145deg,
+      rgba(245, 245, 220, 1) 46%,
+      rgba(255, 255, 0, 1) 95%
+   );
+}
+
+.ll {
+   border-radius: 59% 0% 57% 42% / 90% 61% 0% 44%;
+}
+.lll {
+   border-radius: 58% 42% 39% 61% / 31% 36% 64% 69%;
+   background: rgb(247, 169, 169);
+   background: linear-gradient(
+      145deg,
+      rgba(247, 169, 169, 1) 30%,
+      rgba(255, 255, 0, 1) 93%
+   );
+}
+.text-grad {
+   background-clip: textint;
+   background: linear-gradient(
+      145deg,
+      rgba(247, 169, 169, 1) 30%,
+      rgba(255, 255, 0, 1) 93%
+   );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.service-card {
+   border-radius: 40px;
+}
+
+.fade-in {
+   opacity: 0;
+   animation: fadeInAnimation 0.5s ease-in forwards;
+}
+.fade-in-late {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in forwards;
+    animation-delay: 1s;
+ }
+@keyframes fadeInAnimation {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
 }

@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <div className="wrap">
             <Intro />
-            <About />
+            {/* <About /> */}
             <Service />
             <Experts />
             <Working />

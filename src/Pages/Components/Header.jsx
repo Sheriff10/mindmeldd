@@ -18,17 +18,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="relative inset-x-0 top-0 z-50 bg-pri text-gray-900 shadow">
-                <Container>
-                    <div className="hidden lg:flex justify-between py-4 border-b-[1px]">
-                        <span>Counseling and psychotherapy for individuals, couples and families.</span>
-                        <div className="flex gap-10 font-bold ">
-                            <span className="flex gap-3 items-center"><FaClock className="text-yellow-500" /> Mon - Sat 9.00 - 18.00 </span>
-                            <span className="flex gap-3 items-center"><FaPhoneAlt className="text-yellow-500" />(251) 235-3256</span>
-                        </div>
-                    </div>
-                </Container>
-
+            <header className="absolute inset-x-0 top-0 z-50  text-gray-900 shadow">
                 <Container>
                     <nav
                         className="flex items-center justify-between py-6"
@@ -91,8 +81,8 @@ export default function Header() {
                         <div className="flex items-center justify-between">
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
-                                <span className="text-gray-900 font-bold text-2xl">
-                                    Block<span className="text-cyan-300">vest</span>
+                                <span className="text-gray-900 text-2xl font-bold">
+                                    Mind<span className="text-yellow-500">Meld</span>
                                 </span>
                             </a>
                             <button

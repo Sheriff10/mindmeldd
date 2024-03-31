@@ -7,7 +7,7 @@ import { FaAngleRight, FaCaretRight } from 'react-icons/fa'
 export default function Footer() {
     const link = ["Company Hstory", "About Us", "Contact Us", "Services", "Privacy Policy"]
     return (
-        <div className="wrap bg-neutral-900 text-gray-200">
+        <div className="wrap bg-pri text-gray-800">
             <Container>
                 <div className="grid md: grid-cols-2 lg:grid-cols-4 py-24 gap-10">
                     <div className="wrap col-span-2">
