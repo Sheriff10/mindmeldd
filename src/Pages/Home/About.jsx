@@ -10,7 +10,7 @@ export default function About() {
                     <div className="wrap p-3">
                         <span className='text-lg text-yellow-500font-bold'>About me</span>
                         <div className="capitalize text-5xl mb-10">
-                            <span>Professional Psychology Therapy</span>
+                            <span className='text-grad'>Professional Psychology Therapy</span>
                         </div>
 
                         <span className='font-bold text-lg'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium doloreque laudantum.</span>
@@ -22,8 +22,8 @@ export default function About() {
                         <Button text={"Book an Appointment"} />
                     </div>
 
-                    <div className="img-wrap flex justify-end">
-                        <img src="/asset/aunt.jpeg" alt="MindMeld" />
+                    <div className="img-wrap flex justify-center">
+                        <img src="/asset/mobile.png" alt="MindMeld" />
                     </div>
                 </div>
             </Container>

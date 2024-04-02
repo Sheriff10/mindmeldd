@@ -2,17 +2,17 @@ import React from "react";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, ClockIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Container from "./Container";
 import { FaClock, FaPhoneAlt } from "react-icons/fa"
 import Button from "./Button";
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const navigation = [
-        { name: "Product", href: "#" },
-        { name: "Features", href: "#" },
-        { name: "Marketplace", href: "#" },
-        { name: "Company", href: "#" },
+        { name: "Home", href: "/" },
+        { name: "About", href: "/about" },
+        { name: "Expert", href: "/expert" },
+        { name: "Centres", href: "/centres" },
     ];
     const navi = useNavigate();
 
@@ -49,13 +49,13 @@ export default function Header() {
                         </div>
                         <div className="hidden lg:flex lg:gap-x-12">
                             {navigation.map((item) => (
-                                <a
+                                <Link
                                     key={item.name}
-                                    href={item.href}
+                                    to={item.href}
                                     className="text-lg font-semibold leading-6 text-gray-900"
                                 >
                                     {item.name}
-                                </a>
+                                </Link>
                             ))}
                         </div>
                         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
