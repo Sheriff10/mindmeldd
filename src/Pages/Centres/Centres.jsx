@@ -15,12 +15,12 @@ export default function Centres() {
 
             <Container>
                 <div className="card shadow-xl p-5 py-10 border-t-[1px] rounded-3xl mt-10">
-                    <div className="flex items-center">
+                    <div className="flex flex-wrap gap-5 items-center">
                         <div className="img-wrap pe-3">
                             <img src="/asset/city.jpeg" alt="Mumbia"  className='rounded-3xl'/>
                         </div>
                         <div className="detail-wrap">
-                            <div className="heading mb-5 font-bold text-2xl font-bold">
+                            <div className="heading mb-5 font-bold text-2xl">
                                 <span>Banglass Location</span>
                             </div>
 

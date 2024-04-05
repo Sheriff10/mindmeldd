@@ -17,7 +17,7 @@ export default function Faqs() {
          "Dolor sit amet consectetur elit sed do eius mod tempor incd idunt labore magna.aliqua enim ad minim veniam quis"
       ),
       faqFunc(
-         "What utilities does the NFTNG pass have? ",
+         "What are the resources does the have? ",
          "Dolor sit amet consectetur elit sed do eius mod tempor incd idunt labore magna.aliqua enim ad minim veniam quis Dolor sit amet consectetur elit sed do eius mod tempor incd idunt labore magna.aliqua enim ad minim veniam quis"
       ),
    ];

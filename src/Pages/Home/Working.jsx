@@ -6,7 +6,7 @@ export default function Working() {
     const cardFunc = (img, title, text) => ({ img, title, text })
     const cardArr = [
         cardFunc("/asset/clip.png", "Make Schedule", "Lorem ipsum dolor sit amet adipelit sed eiusmtempor encid dolore."),
-        cardFunc("/asset/chat.png", "Start Discussion", "Lorem ipsum dolor sit amet adipelit sed eiusmtempor encid dolore."),
+        cardFunc("/asset/Chat.png", "Start Discussion", "Lorem ipsum dolor sit amet adipelit sed eiusmtempor encid dolore."),
         cardFunc("/asset/clip.png", "Enjoy Plan", "Lorem ipsum dolor sit amet adipelit sed eiusmtempor encid dolore."),
     ]
     const [ref, inView] = useInView({ threshold: 0 })

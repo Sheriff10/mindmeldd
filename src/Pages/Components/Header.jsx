@@ -11,8 +11,9 @@ export default function Header() {
     const navigation = [
         { name: "Home", href: "/" },
         { name: "About", href: "/about" },
-        { name: "Expert", href: "/expert" },
+        { name: "Experts", href: "/experts" },
         { name: "Centres", href: "/centres" },
+        { name: "Resources", href: "/resources" },
     ];
     const navi = useNavigate();
 
@@ -25,14 +26,13 @@ export default function Header() {
                         aria-label="Global"
                     >
                         <div className="flex lg:flex-1">
-                            <a href="#" className="-m-1.5 p-1.5">
-                                {/* <span className="sr-only">Your Company</span>
-                  <img
-                     className="h-8 w-auto"
-                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                     alt=""
-                  /> */}
-                                <span className="text-gray-900 text-2xl font-bold">
+                            <a href="#" className="flex items-center lg:block gap-3">
+                                <img
+                                    className="w-[40px] lg:w-[50px]"
+                                    src="/asset/logo.png"
+                                    alt=""
+                                />
+                                <span className="text-gray-900 text-xl font-bold">
                                     Mind<span className="text-yellow-500">Meld</span>
                                 </span>
                             </a>

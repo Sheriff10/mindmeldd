@@ -12,6 +12,7 @@ export default function Footer() {
                 <div className="grid md: grid-cols-2 lg:grid-cols-4 py-24 gap-10">
                     <div className="wrap col-span-2">
                         <div className="head font-bold text-4xl mb-3">
+                            <img src="/asset/logo.png" alt="MindMeldd" className='w-[70px]' />
                             <span>Mind<span className='text-yellow-500'>Meld</span></span>
                         </div>
                         <div className="text-wrap my-8">
